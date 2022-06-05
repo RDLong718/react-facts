@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #282d35;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 91px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text {
+  color: #61dafb;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--logo {
+  margin-right: 10px;
+}
+.nav--title {
+  height: 21px;
+  width: 259px;
+  left: 264px;
+  top: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #deebf8;
+}
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(images/background_logo.png);
+  background-repeat: no-repeat;
+  background-position: 400px 140px;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+  position: absolute;
+  width: 9.61px;
+  height: 160.61px;
+  left: 77px;
+  top: 239px;
+}
